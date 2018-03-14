@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>level carbon.</title>
-    <link rel="shortcut icon" href="./docs/images/icon.ico" />
+    <title>Level Carbon.</title>
     <link rel="stylesheet" href="./docs/css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -14,81 +13,81 @@
 <body>
     <header class="header">
         <div class="navbar">
-            <a href="#">
-                <p class="brand">level carbon.</p>
-            </a>
-            <i id="menuOpen" class="material-icons" onclick="abrirMenu()">menu</i>
+            <a href="#" class="brand">
+                <img src="">Level Carbon.</a>
+            <i class="material-icons openMenu" onclick="menuOpen()">menu</i>
         </div>
 
         <div class="header-content">
-            <p>Bem vindos ao IOCAMP.</p>
-            <p>Um blog sobre tecnologia, pesquisas e recomendações.</p>
+            <p>Um projeto para compartilhar pesquisas, tecnologia e conhecimento.</p>
         </div>
 
         <div id="menu" class="menu">
-            <h1>Explore</h1>
-            <i id="menuClose" class="material-icons" onclick="fecharMenu()">close</i>
+            <div class="menu-content">
+                <h1 class="menu-title">Menu</h1>
+                <i class="material-icons closeMenu" onclick="menuClose()">close</i>
 
-            <div class="menu-link">
-                <a href="index.html">Página Inicial</a>
-                <a href="#">Categorias</a>
-                <a href="#">A plataforma</a>
-                <a href="#">Equipe</a>
-            </div>
+                <div class="menu-link">
+                    <a href="#">Página Inicial</a>
+                    <a href="./docs/pages/levelCarbon.html">Level Carbon</a>
+                    <a href="#">Categorias</a>
+                    <a href="#">Nosso time</a>
+                </div>
 
-            <div class="menu-social">
-                <p class="section-id">Redes sociais</p>
-                <div class="menu-social-links">
-                    <a href="https://twitter.com/hiextech">twitter</a>
-                    <a href="https://instagram.com/hiextech">instagram</a>
-                    <a href="https://www.youtube.com/channel/UCQV0mazY17rE-SpIov_DcUQ?view_as=subscriber">youtube</a>
-                    <a href="https://medium.com/hiextech">medium</a>
-                    <a href="https://github.com/hiextech">github</a>
+                <div class="social">
+                    <h1>Estamos por aqui.</h1>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Youtube</a>
+                    <a href="#">Github</a>
+                    <a href="#">Medium</a>
                 </div>
             </div>
         </div>
     </header>
 
     <section class="recent">
-        <p class="section-id">Publicados recentemente</p>
-        <div class="card">
-            <img src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="">
-            <a href="./docs/posts/beta.html" class="card-title">
-                <h1>Para iniciantes</h1>
+        <a href="#">
+            <div class="card">
+                <h1 class="card-title">Exemplo de título do post</h1>
+                <p class="card-data">Agosto 14, 2018</p>
+                <p class="card-about">This is an example of a post which includes a feature image specified in the front matter of the post. The
+                    feature image spans the full-width of the page, and is shown with the title on permalink pages.</p>
+            </div>
+        </a>
+
+        <a href="#">
+                <div class="card">
+                    <h1 class="card-title">Exemplo de título do post</h1>
+                    <p class="card-data">Agosto 14, 2018</p>
+                    <p class="card-about">This is an example of a post which includes a feature image specified in the front matter of the post. The
+                        feature image spans the full-width of the page, and is shown with the title on permalink pages.</p>
+                </div>
             </a>
-            <div class="card-header">
-                <p>
-                    <p class="card-data">
-                        <a href="#">Breno Freitas </a> - 11.03.18</p>
-                </p>
-            </div>
-            <p class="card-about">
-                Olá pessoal! Meu nome é Breno tenho 21 anos, esse é um projeto que estou desenvolvendo para...
-            </p>
-            <div class="tags">
-                <a href="#">tag</a>
-                <a href="#">tag</a>
-                <a href="#">tag</a>
-            </div>
-        </div>
+
+            <a href="#">
+                    <div class="card">
+                        <h1 class="card-title">Exemplo de título do post</h1>
+                        <p class="card-data">Agosto 14, 2018</p>
+                        <p class="card-about">This is an example of a post which includes a feature image specified in the front matter of the post. The
+                            feature image spans the full-width of the page, and is shown with the title on permalink pages.</p>
+                    </div>
+                </a>
     </section>
 
-    <section class="social">
-        <p class="section-id">Redes sociais</p>
-        <div class="social-links">
-            <a href="https://twitter.com/hiextech">twitter</a>
-            <a href="https://instagram.com/hiextech">instagram</a>
-            <a href="https://www.youtube.com/channel/UCQV0mazY17rE-SpIov_DcUQ?view_as=subscriber">youtube</a>
-            <a href="https://medium.com/hiextech">medium</a>
-            <a href="https://github.com/hiextech">github</a>
-        </div>
-    </section>
+    <div class="social-main">
+            <h1>Estamos por aqui.</h1>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">Youtube</a>
+            <a href="#">Github</a>
+            <a href="#">Medium</a>
+    </div>
 
-    <footer class="footer">
-        <p>Desenvolvido por
-            <a href="#">Breno Freitas</a> - 2018</p>
-        <p>Estamos em obras</p>
-        <p>versão 0.0.4</p>
+    <footer>
+        <p>Site em desenvolvimento</p>
+        <p>Versão 0.0.2</p>
+        <p>Desenvolvido por Breno Freitas.</p>
     </footer>
 
     <script src="./docs/javascript/main.js"></script>
